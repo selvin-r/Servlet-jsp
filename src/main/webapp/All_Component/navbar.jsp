@@ -4,7 +4,7 @@
 </div>
 
 
-<div class="container-fluid">
+<div class="container-fluid p-3 " style="background-color: #eceff1">
 
     <div class="row">
 
