@@ -1,0 +1,18 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <!-- Servlet definition -->
+<!--  <servlet>-->
+<!--    <servlet-name>HelloServlet</servlet-name>-->
+<!--    <servlet-class>com.codeselvin.HelloServlet</servlet-class>-->
+<!--  </servlet>-->
+
+<!--  &lt;!&ndash; Servlet URL mapping &ndash;&gt;-->
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>HelloServlet</servlet-name>-->
+<!--    <url-pattern>/hello-servlet</url-pattern>-->
+<!--  </servlet-mapping>-->
+</web-app>
