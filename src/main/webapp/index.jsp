@@ -1,3 +1,5 @@
+<%@ page import="java.sql.Connection" %>
+<%@ page import="com.DB.DBConnect" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
 
 
@@ -37,6 +39,15 @@
 <div class="container-fluid back-img">
     <h2 class="text-center">EBook Management System</h2>
 </div>
+
+
+<%--Frontend Backend connection--%>
+
+<%--Demo Check--%>
+
+<%--<% Connection conn = DBConnect.getConnection();--%>
+<%--    System.out.println(conn);--%>
+<%--%>--%>
 
 <%-- Start Recent Book--%>
 

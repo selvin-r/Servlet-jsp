@@ -26,8 +26,8 @@
 
         <div class="col-md-3">
 
-            <a href="" class="btn btn-success mt-2">Login</a>
-            <a href="" class="btn btn-primary mt-2">Register</a>
+            <a href="login.jsp" class="btn btn-success mt-2"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+            <a href="register.jsp" class="btn btn-primary mt-2"><i class="fa-regular fa-user"></i> Register</a>
 
         </div>
     </div>
@@ -45,7 +45,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.jsp">Home</a>
                 </li>
 
                 <li class="nav-item ">
