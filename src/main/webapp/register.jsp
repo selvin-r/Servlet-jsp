@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>EBook: Register</title>
@@ -24,13 +25,29 @@
 
                 <div class="card-body">
                     <h4 class="text-center">Registration Page</h4>
-                    <form>
+
+                    <c:if test="${not empty succMsg}">
+
+                        <p class="text-center text-success">${succMsg}</p>
+                    </c:if>
+
+                    <c:if test="${not empty failedMsg}">
+
+                        <p class="text-center text-danger">${failedMsg}</p>
+                    </c:if>
+
+
+
+
+
+
+                    <form action="register" method="post">
 
 
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Enter Full Name</label>
                             <input type="text" class="form-control" id="exampleInputEmail1"
-                                   aria-describedby="emailHelp" required="required">
+                                   aria-describedby="emailHelp" required="required" name="fname">
                             <%--<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>--%>
                         </div>
 
@@ -38,7 +55,7 @@
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
-                                   aria-describedby="emailHelp" required="required">
+                                   aria-describedby="emailHelp" required="required" name="email">
                             <%--<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>--%>
                         </div>
 
@@ -46,16 +63,38 @@
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
                             <input type="number" class="form-control" id="exampleInputEmail1"
-                                   aria-describedby="emailHelp" required="required">
+                                   aria-describedby="emailHelp" required="required" name="phno">
                             <%--<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>--%>
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" required="required">
+                            <input type="password" class="form-control" id="exampleInputPassword1" required="required" name="password">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1" required="required" name="address">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">LandMark</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1" required="required" name="landmark">
+                        </div>
+                        <div class="mb-3">
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">City</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1" required="required" name="city">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">State</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1" required="required" name="state">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Pin Code</label>
+                            <input type="number" class="form-control" id="exampleInputPassword1" required="required" name="pincode">
                         </div>
                         <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1" required="required">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1"  name="check">
+                            <label class="form-check-label" for="exampleCheck1">Agree Terms & Condition</label>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
