@@ -26,13 +26,15 @@
                 <div class="card-body">
                     <h4 class="text-center">Registration Page</h4>
 
-                    <%--@elvariable id="succMsg" type="sun"--%>
                     <c:if test="${not empty succMsg}">
-                        <%--@elvariable id="succMsg" type="sun"--%>
-                    <p class="text-center text-success">${succMsg}</p></c:if> 
-                    <%--@elvariable id="failedMsg" type="sun"--%>
-                    <c:if
-                        test="${not empty failedMsg}"><p class="text-center text-danger">${failedMsg}</p></c:if>
+                        <p class="text-center text-success">${succMsg}</p>
+                        <c:remove var="succMsg" scope="session"/>
+                    </c:if>
+
+                    <c:if test="${not empty failedMsg}">
+                        <p class="text-center text-danger">${failedMsg}</p>
+                        <c:remove var="failedMsg" scope="session"/>
+                    </c:if>
 
 
                     <form action="register" method="post">

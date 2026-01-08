@@ -178,11 +178,11 @@
             <div class="card crd-ho">
 
                 <div class="card-body text-center">
-                    <img alt="" src="<%= request.getContextPath() %>/Books/javab.webp"
+                    <img alt="" src="<%= request.getContextPath() %>/Books/c_Book.jpg"
                          style="width: 150px;height: 200px;"
                          class="img-thumblin">
-                    <p style="color: black">Java Programming</p>
-                    <p style="color: black">Balgrurswamy</p>
+                    <p style="color: black">C Programming</p>
+                    <p style="color: black">Tim Warre</p>
                     <p style="color: black">Categories: New</p>
 
                     <div class="d-flex justify-content-between align-items-center">
@@ -203,11 +203,11 @@
             <div class="card crd-ho">
 
                 <div class="card-body text-center">
-                    <img alt="" src="<%= request.getContextPath() %>/Books/javab.webp"
+                    <img alt="" src="<%= request.getContextPath() %>/Books/javascript_book.png"
                          style="width: 150px;height: 200px;"
                          class="img-thumblin">
-                    <p style="color: black">Java Programming</p>
-                    <p style="color: black">Balgrurswamy</p>
+                    <p style="color: black">JavaScript Programming</p>
+                    <p style="color: black">Svetlin Nakov</p>
                     <p style="color: black">Categories: New</p>
 
                     <div class="d-flex justify-content-between align-items-center">
@@ -227,11 +227,11 @@
             <div class="card crd-ho">
 
                 <div class="card-body text-center">
-                    <img alt="" src="<%= request.getContextPath() %>/Books/javab.webp"
+                    <img alt="" src="<%= request.getContextPath() %>/Books/python_book.jpg"
                          style="width: 150px;height: 200px;"
                          class="img-thumblin">
-                    <p style="color: black">Java Programming</p>
-                    <p style="color: black">Balgrurswamy</p>
+                    <p style="color: black">Python Programming</p>
+                    <p style="color: black">Abhinav</p>
                     <p style="color: black">Categories: New</p>
 
                     <div class="d-flex justify-content-between align-items-center">
@@ -252,11 +252,11 @@
             <div class="card crd-ho">
 
                 <div class="card-body text-center">
-                    <img alt="" src="<%= request.getContextPath() %>/Books/javab.webp"
+                    <img alt="" src="<%= request.getContextPath() %>/Books/Software_book.jpg"
                          style="width: 150px;height: 200px;"
                          class="img-thumblin">
-                    <p style="color: black">Java Programming</p>
-                    <p style="color: black">Balgrurswamy</p>
+                    <p style="color: black">Complete Software</p>
+                    <p style="color: black">John Sonmez</p>
                     <p style="color: black">Categories: New</p>
 
                     <div class="d-flex justify-content-between align-items-center">
@@ -295,11 +295,11 @@
             <div class="card crd-ho">
 
                 <div class="card-body text-center">
-                    <img alt="" src="<%= request.getContextPath() %>/Books/javab.webp"
+                    <img alt="" src="<%= request.getContextPath() %>/Books/c++_book.jpg"
                          style="width: 150px;height: 200px;"
                          class="img-thumblin">
-                    <p style="color: black">Java Programming</p>
-                    <p style="color: black">Balgrurswamy</p>
+                    <p style="color: black">C++ Programming</p>
+                    <p style="color: black">Pete Goodliffe</p>
                     <p style="color: black">Categories: New</p>
 
                     <div class="d-flex justify-content-between align-items-center">
@@ -320,11 +320,11 @@
             <div class="card crd-ho">
 
                 <div class="card-body text-center">
-                    <img alt="" src="<%= request.getContextPath() %>/Books/javab.webp"
+                    <img alt="" src="<%= request.getContextPath() %>/Books/nodejs_book.jpg"
                          style="width: 150px;height: 200px;"
                          class="img-thumblin">
-                    <p style="color: black">Java Programming</p>
-                    <p style="color: black">Balgrurswamy</p>
+                    <p style="color: black">Node Js</p>
+                    <p style="color: black">Emanuele Delbono</p>
                     <p style="color: black">Categories: New</p>
 
                     <div class="d-flex justify-content-between align-items-center">
@@ -344,11 +344,11 @@
             <div class="card crd-ho">
 
                 <div class="card-body text-center">
-                    <img alt="" src="<%= request.getContextPath() %>/Books/javab.webp"
+                    <img alt="" src="<%= request.getContextPath() %>/Books/cc.png"
                          style="width: 150px;height: 200px;"
                          class="img-thumblin">
-                    <p style="color: black">Java Programming</p>
-                    <p style="color: black">Balgrurswamy</p>
+                    <p style="color: black">C# Programming</p>
+                    <p style="color: black">Svetlin Nakov</p>
                     <p style="color: black">Categories: New</p>
 
                     <div class="d-flex justify-content-between align-items-center">
@@ -369,11 +369,11 @@
             <div class="card crd-ho">
 
                 <div class="card-body text-center">
-                    <img alt="" src="<%= request.getContextPath() %>/Books/javab.webp"
+                    <img alt="" src="<%= request.getContextPath() %>/Books/ios_book.png"
                          style="width: 150px;height: 200px;"
                          class="img-thumblin">
-                    <p style="color: black">Java Programming</p>
-                    <p style="color: black">Balgrurswamy</p>
+                    <p style="color: black">Ios 18 Programming</p>
+                    <p style="color: black">Simon NG</p>
                     <p style="color: black">Categories: New</p>
 
                     <div class="d-flex justify-content-between align-items-center">
