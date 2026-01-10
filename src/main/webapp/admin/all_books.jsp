@@ -11,7 +11,7 @@
     <title>All Books</title>
     <%@include file="/admin/AllCss.jsp" %>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 <%@include file="/admin/navbar.jsp" %>
 <h3 class="text-center">All Books Page</h3>
 
@@ -79,6 +79,12 @@
     </tr>
     </tbody>
 </table>
+
+<div class="mt-auto">
+
+
+    <%@include file="/admin/footer.jsp"%>
+</div>
 
 </body>
 </html>

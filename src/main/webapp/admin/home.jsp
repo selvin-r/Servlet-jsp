@@ -4,7 +4,7 @@
     <title>Admin : Home</title>
     <%@include file="/admin/AllCss.jsp" %>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 
 <%@include file="/admin/navbar.jsp" %>
 
@@ -65,6 +65,11 @@
 
     </div>
 </div>
-<%@include file="/admin/footer.jsp"%>
+<div class="mt-auto">
+
+
+ <%@include file="/admin/footer.jsp"%>
+</div>
 </body>
+
 </html>

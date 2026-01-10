@@ -10,7 +10,14 @@
 <head>
     <title>Title</title>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 logut pages
+
+
+<div class="mt-auto">
+
+
+    <%@include file="/admin/footer.jsp"%>
+</div>
 </body>
 </html>

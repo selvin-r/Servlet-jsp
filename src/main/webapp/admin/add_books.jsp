@@ -11,7 +11,7 @@
     <title>Admin Add Books</title>
     <%@include file="/admin/AllCss.jsp" %>
 </head>
-<body style="background-color: #f0f2f2">
+<body class="d-flex flex-column min-vh-100" style="background-color: #f0f2f2">
 <%@include file="/admin/navbar.jsp" %>
 
 <div class="container p-3">
@@ -82,6 +82,12 @@
 
     </div>
 
+</div>
+
+<div class="mt-auto">
+
+
+    <%@include file="/admin/footer.jsp"%>
 </div>
 </body>
 </html>
